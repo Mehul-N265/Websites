@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICT | Output Devices</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 0px;
+      margin: 0;
+      background: linear-gradient(-90deg, rgb(22, 30, 31), rgb(0, 0, 0));
+      font-family: "Indie Flower", "Franklin Gothic Medium", "Arial Narrow",
+        Arial, sans-serif;
+    }
+    .Title {
+      color: whitesmoke;
+    }
+    .header {
+      margin: 0px;
+      padding: 0px;
+    }
+    hr {
+      border: 10px solid green;
+      border-radius: 5px;
+    }
+    ::-webkit-scrollbar {
+      width: 10px;
+      display: block;
+      background-color: #ffffff00;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px #5f5e5e;
+      background-color: #383636;
+      /* border-radius: 10px; */
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #ff0000;
+      /* border-radius: 10px; */
+      border-radius: 50px;
+      box-shadow: 5px 5px 8px 10px #ff7b7b;
+      transition: all 0.5s;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      box-shadow: 5px 5px 8px 10px #83ff83;
+      background: #0fb300;
+    }
+    .info {
+      font-size: 2rem;
+    }
+    .back {
+      position: absolute;
+      top: 5px;
+      left: 20px;
+      font-size: 50px;
+      color: whitesmoke;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .video {
+      position: relative;
+      left: 15%;
+    }
+    .intro {
+      color: azure;
+      padding-left: 10px;
+    }
+    .divisions {
+      /* background-color: #1fddff; */
+      background: linear-gradient(rgba(5, 5, 5, 0.5), rgba(14, 13, 13, 0.5)),
+        url("pcb.jpg");
+      /* height: 80vh; */
+      padding: 60px;
+      padding-right: 10px;
+      box-shadow: 2px 5px 8px 10px #ffffff;
+      border-radius: 20px;
+    }
+    .tile {
+      display: inline-block;
+      margin: 2rem;
+      width: 43%;
+      background-color: rgb(0, 0, 0);
+      font-size: 30px;
+      color: blanchedalmond;
+      border-radius: 10px;
+      padding: 20px;
+      border: 2px solid #1ba500;
+      border-width: 10px;
+      transition: all 0.4s ease-in-out;
+    }
+    .tile:hover {
+      background-color: whitesmoke;
+      color: black;
+      cursor: pointer;
+      border: 2px solid black;
+      border-width: 10px;
+      box-shadow: 0px 5px 8px 3px #2600ff;
+    }
+    .flexy {
+      display: flex;
+      justify-content: space-around;
+      align-items: stretch;
+    }
+  </style>
+  <body>
+    <a class="back" href="/science_activity.html"><div><-</div></a>
+    <div
+      class="header"
+      style="
+        background: linear-gradient(
+            rgba(31, 30, 30, 0.5),
+            rgba(22, 22, 22, 0.5)
+          ),
+          url('1_25.jpg'); ;
+      "
+    >
+      <center>
+        <b
+          class="Title"
+          style="font-size: 50px"
+          title="ICT: Information Communcation Technology."
+          >ICT: Information Communcation Technology.</b
+        >
+        <hr />
+      </center>
+    </div>
+    <div class="flexy">
+      <div class="intro tile">
+        <h1>What are Output Devices ?</h1>
+        <p class="info">
+          An output device is any piece of computer hardware equipment which
+          converts information into human readable form. It can be text,
+          graphics, tactile, audio, and video.
+        </p>
+      </div>
+      <div class="intro tile">
+        <span>Examples of Output devices :</span>
+        <div>
+          <h2 class="individual-heading">Monitor:</h2>
+          <p>
+            Computer monitor is an output device that displays information in
+            pictorial form.
+            <br />
+            There are mainly two types of monitor:
+            <br />
+            1) LCD (Liquid Crystal Display) Monitor
+            <br />
+            2) CRT (Cathode Ray Tube) Monitor
+          </p>
+        </div>
+        <div>
+          <h2 class="individual-heading">Printer:</h2>
+          <p>
+            In computing, a printer is a peripheral machine which makes a
+            persistent representation of graphics or text, usually on paper.
+            While most output is human-readable, bar code printers are an
+            example of an expanded use for printers. The different types of
+            printers include 3D printer, inkjet printer, laser printer, thermal
+            printer, etc.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="intro tile" style="width: 95%">
+      <div>
+        <p style="align-items: center">
+          &nbsp;<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--><img
+            style="width: 650px; height: 400px"
+            src="monitor.jfif"
+          /><img style="width: 550px; height: 400px" src="printer.jpg" />
+        </p>
+      </div>
+    </div>
+    <br /><br />
+    <div class="video tile" style="width: fit-content">
+      <iframe
+        width="853"
+        height="480"
+        src="https://www.youtube.com/embed/byd43x_3sC8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>
